@@ -37,4 +37,14 @@ button {
     height: 3rem;
     border: none;
     border-radius: 2rem;
+    cursor: pointer;
+
+    &:hover {
+        background: transparent;
+        border: 1px solid white;
+
+        a {
+            color: white;
+        }
+    }
 }
