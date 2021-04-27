@@ -18,30 +18,3 @@ body {
     font-size: 15px;
     font-family: $Lexend;
 }
-
-h1 {
-    font-family: $BigShoulder;
-    color: $Verylightgray;
-    font-size: 2.266em;
-}
-
-p {
-    color: $Transparentwhite;
-    font-size: 0.8125rem;
-}
-
-a {
-    text-decoration: none;
-    background: white;
-    font-size: 0.867em;
-    padding: 1.1875rem 2.0625rem;
-    border: none;
-    border-radius: 3rem;
-    cursor: pointer;
-    letter-spacing: 0.2px;
-
-    &:hover {
-        border: 1px solid white; 
-        color: white;
-    }
-}
