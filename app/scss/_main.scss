@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 5.5rem 1.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    &_sedan {
+        background: $Brightorange;
+
+        button {
+            color: $Brightorange;
+        }
+    }
+
+    &_suvs {
+        background: $Darkcyan;
+
+        button {
+            color: $Darkcyan;;
+        }
+    }
+
+    &_luxury {
+        background: $Verydarkcyan;
+
+        button {
+            color: $Verydarkcyan;;
+        }
+    }
+
+    .card {
+        height: 27.6875rem; 
+        min-width: 20.4375rem;
+        padding:  3rem 3.0625rem;
+    }
+}
