@@ -31,22 +31,19 @@ p {
   font-size: 0.8125rem;
 }
 
-button {
+a {
+  text-decoration: none;
   background: white;
   font-size: 0.867em;
-  width: 9.25rem;
-  height: 3rem;
+  padding: 1.1875rem 2.0625rem;
   border: none;
-  border-radius: 2rem;
+  border-radius: 3rem;
   cursor: pointer;
+  letter-spacing: 0.2px;
 }
 
-button:hover {
-  background: transparent;
+a:hover {
   border: 1px solid white;
-}
-
-button:hover a {
   color: white;
 }
 
@@ -74,7 +71,7 @@ button:hover a {
   background: #e38826;
 }
 
-.main_sedan button {
+.main_sedan a {
   color: #e38826;
 }
 
@@ -82,7 +79,7 @@ button:hover a {
   background: #006970;
 }
 
-.main_suvs button {
+.main_suvs a {
   color: #006970;
 }
 
@@ -90,7 +87,7 @@ button:hover a {
   background: #004241;
 }
 
-.main_luxury button {
+.main_luxury a {
   color: #004241;
 }
 

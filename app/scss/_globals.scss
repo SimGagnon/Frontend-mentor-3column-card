@@ -30,21 +30,18 @@ p {
     font-size: 0.8125rem;
 }
 
-button {
+a {
+    text-decoration: none;
     background: white;
     font-size: 0.867em;
-    width: 9.25rem;
-    height: 3rem;
+    padding: 1.1875rem 2.0625rem;
     border: none;
-    border-radius: 2rem;
+    border-radius: 3rem;
     cursor: pointer;
+    letter-spacing: 0.2px;
 
     &:hover {
-        background: transparent;
-        border: 1px solid white;
-
-        a {
-            color: white;
-        }
+        border: 1px solid white; 
+        color: white;
     }
 }

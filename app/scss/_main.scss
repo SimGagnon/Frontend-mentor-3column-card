@@ -11,23 +11,23 @@
     &_sedan {
         background: $Brightorange;
 
-        button {
+        a {
             color: $Brightorange;
         }
     }
 
     &_suvs {
         background: $Darkcyan;
-
-        button {
-            color: $Darkcyan;;
+            
+        a {
+            color: $Darkcyan;
         }
     }
 
     &_luxury {
         background: $Verydarkcyan;
 
-        button {
+        a {
             color: $Verydarkcyan;;
         }
     }
@@ -37,4 +37,9 @@
         min-width: 20.4375rem;
         padding:  3rem 3.0625rem;
     }
+}
+
+
+@media screen and (min-width:900px) {
+
 }
