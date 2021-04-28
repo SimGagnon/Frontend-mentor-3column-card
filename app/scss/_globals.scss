@@ -1,10 +1,9 @@
 html {
     font-size: 100%;
-    box-sizing: border-box; //element can have padding and wont add it to width
+    box-sizing: border-box;
 }
 
-
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,p {
     margin: 0;
 }
 
@@ -17,4 +16,13 @@ body {
     padding: 0;
     font-size: 15px;
     font-family: $Lexend;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+
+    a {
+        color: hsl(228, 45%, 44%);
+    }
 }

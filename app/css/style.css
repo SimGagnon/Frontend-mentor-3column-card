@@ -1,10 +1,28 @@
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, p {
   margin: 0;
 }
 
@@ -20,21 +38,16 @@ body {
   font-family: "Lexend Deca", sans-serif;
 }
 
-.main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100%;
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.main_container {
   margin: 5.5rem 1.5rem;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -72,6 +85,7 @@ body {
 .main .card {
   height: 27.6875rem;
   min-width: 18.75rem;
+  max-width: 900px;
   padding: 3rem 3.0625rem;
   padding-right: 3.4375rem;
   display: -webkit-box;
@@ -81,9 +95,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .main .btn {
@@ -94,12 +108,14 @@ body {
   width: -moz-fit-content;
   width: fit-content;
   font-size: 0.867em;
-  padding: 1.1875rem 2.0625rem;
+  padding: 1.1rem 2.2rem;
   border: none;
   border-radius: 3rem;
   cursor: pointer;
   letter-spacing: 0.2px;
   color: inherit;
+  -webkit-transition: color 300ms ease-out;
+  transition: color 300ms ease-out;
 }
 
 .main .btn:hover {
@@ -107,5 +123,28 @@ body {
   color: white;
   background: transparent;
   margin: -1px;
+}
+
+@media screen and (min-width: 55rem) {
+  .main {
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: auto;
+  }
+  .main_container .card {
+    height: 31.25rem;
+    max-width: 19.06rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
