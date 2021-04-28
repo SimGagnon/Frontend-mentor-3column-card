@@ -28,23 +28,22 @@
     img {
         width: 4.1875rem;
     }
-    
+
     p {
         color: $Transparentwhite;
         font-size: 0.8125rem;
         line-height: 2;
     }
-    
+
     .card {
-        height: 27.6875rem; 
+        height: 27.6875rem;
         min-width: 18.75rem;
         max-width: 900px;
-        padding:  3rem 3.0625rem;
+        padding: 3rem 3.0625rem;
         padding-right: 3.4375rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
     }
 
     .btn {
@@ -60,19 +59,17 @@
         letter-spacing: 0.2px;
         color: inherit;
         transition: color 300ms ease-out;
-        
 
         &:hover {
-            border: 1px solid white; 
+            border: 1px solid white;
             color: white;
             background: transparent;
             margin: -1px;
-            
         }
     }
 }
 
-@media screen and (min-width: 55rem) {
+@media screen and (min-width: 56.25rem) {
     .main {
         height: 90vh;
         display: flex;
