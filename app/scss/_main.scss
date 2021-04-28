@@ -7,16 +7,15 @@
     }
 
     &_sedan {
-        background: $Brightorange;
-        color: $Brightorange;
+        @include card-colors ($Brightorange);
     }
 
     &_suvs {
-        background: $Darkcyan;
+        @include card-colors ($Darkcyan);
     }
 
     &_luxury {
-        background: $Verydarkcyan;
+        @include card-colors ($Verydarkcyan);
     }
 
     h1 {
