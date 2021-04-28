@@ -1,9 +1,11 @@
 .main {
+    padding: 5.5rem 1.5rem;;
 
     &_container {
-        margin: 5.5rem 1.5rem;
         border-radius: 0.5rem;
         overflow: hidden;
+        max-width: 36rem;
+        margin: auto;
     }
 
     &_sedan {
@@ -37,7 +39,6 @@
     .card {
         height: 27.6875rem;
         min-width: 18.75rem;
-        max-width: 900px;
         padding: 3rem 3.0625rem;
         padding-right: 3.4375rem;
         display: flex;
@@ -72,6 +73,7 @@
     .main {
         height: 90vh; 
         display: flex;
+        padding: 0;
 
         p {
             font-size: 0.95em;
@@ -86,6 +88,7 @@
             display: flex;
             flex-direction: row;
             margin: auto;
+            max-width: 100%;
         }
     }
 }
